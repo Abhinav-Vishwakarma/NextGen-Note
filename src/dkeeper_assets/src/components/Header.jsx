@@ -1,13 +1,14 @@
 import React from "react";
-import HighlightIcon from "@material-ui/icons/Highlight";
+import NoteAddIcon from '@material-ui/icons/NoteAdd';
 
 function Header() {
   return (
     <header>
       <h1>
-        <HighlightIcon />
-        Keeper
+        <NoteAddIcon />
+        NextGen Note
       </h1>
+      <h4>A dcentralised note making app</h4>
     </header>
   );
 }
